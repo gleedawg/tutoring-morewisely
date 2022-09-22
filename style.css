@@ -13,7 +13,7 @@ html{
 }
 
 a{
-  text-decoration: none;
+  color: inherit;
 }
 
 .container{
@@ -547,7 +547,11 @@ p{
 }
 
 #contact .contact-items{
-  width: 400px;
+  max-width: 400px;
+}
+
+#contact .contact-items a{
+  text-decoration: none;
 }
 
 #contact .contact-item{
