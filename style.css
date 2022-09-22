@@ -390,10 +390,11 @@ p{
 }
 
 #services .service-item h2{
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-bottom: 7px;
   text-transform: uppercase;
   text-align: center;
+  font-weight: 500;
 }
 
 #services .service-item p{
