@@ -13,6 +13,7 @@ html{
 }
 
 a{
+  text-decoration: none;
   color: inherit;
 }
 
@@ -547,11 +548,7 @@ p{
 }
 
 #contact .contact-items{
-  max-width: 400px;
-}
-
-#contact .contact-items a{
-  text-decoration: none;
+  width: 350px;
 }
 
 #contact .contact-item{
@@ -818,6 +815,10 @@ p{
   #contact .contact-item{
     margin: 20px;
     flex-direction: row;
+    justify-items: end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   #contact .contact-item .icon{
